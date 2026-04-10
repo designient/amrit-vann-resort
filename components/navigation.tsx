@@ -6,10 +6,15 @@ import { Menu, X } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
+const DARK_HERO_ROUTES = ["/", "/contact"]
+
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
+
+  const hasDarkHero = DARK_HERO_ROUTES.includes(pathname)
+  const useLight = scrolled || !hasDarkHero
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50)
@@ -37,7 +42,7 @@ export function Navigation() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-500 ${
-        scrolled
+        useLight
           ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-stone-200/50"
           : "bg-black/20 backdrop-blur-sm"
       }`}
@@ -46,7 +51,7 @@ export function Navigation() {
         <Link
           href="/"
           className={`text-2xl md:text-3xl font-bold transition-colors duration-300 ${
-            scrolled ? "text-stone-800 hover:text-emerald-700" : "text-white hover:text-emerald-300"
+            useLight ? "text-stone-800 hover:text-emerald-700" : "text-white hover:text-emerald-300"
           }`}
         >
           Amrit Vann
@@ -58,8 +63,8 @@ export function Navigation() {
             <Link
               key={link.href}
               href={link.href}
-              className={`transition-colors font-medium text-base relative ${
-                scrolled
+              className={`transition-colors font-medium text-sm relative ${
+                useLight
                   ? isActive(link.href)
                     ? "text-emerald-700"
                     : "text-stone-600 hover:text-emerald-700"
@@ -83,7 +88,7 @@ export function Navigation() {
           </EnhancedButton>
 
           <button
-            className={`lg:hidden p-2 ${scrolled ? "text-stone-800" : "text-white"}`}
+            className={`lg:hidden p-2 ${useLight ? "text-stone-800" : "text-white"}`}
             onClick={() => setIsOpen(!isOpen)}
             aria-label={isOpen ? "Close menu" : "Open menu"}
           >

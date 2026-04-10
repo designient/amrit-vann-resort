@@ -20,14 +20,15 @@ export const metadata: Metadata = {
     template: "%s | Amrit Vann Resort",
   },
   description:
-    "Experience luxury amidst the wilderness at Amrit Vann Resort, a premium jungle retreat near Pench Tiger Reserve in Kohka, Madhya Pradesh. Wildlife safaris, world-class dining & serene accommodations.",
+    "Experience luxury amidst the wilderness at Amrit Vann Resort, a premium jungle retreat near Pench Tiger Reserve in Khawasa, Madhya Pradesh. Wildlife safaris, world-class dining & serene accommodations.",
   keywords: [
     "Amrit Vann Resort",
     "Pench Tiger Reserve resort",
     "luxury jungle resort India",
     "Pench National Park hotel",
     "wildlife resort Madhya Pradesh",
-    "Kohka resort",
+    "Khawasa resort",
+    "Turia gate Pench",
     "jungle lodge Pench",
     "tiger safari resort",
   ],
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Amrit Vann Resort",
     title: "Amrit Vann Resort | Luxury Jungle Resort near Pench Tiger Reserve",
     description:
-      "Experience luxury amidst the wilderness at Amrit Vann Resort, a premium jungle retreat near Pench Tiger Reserve in Kohka, Madhya Pradesh.",
+      "Experience luxury amidst the wilderness at Amrit Vann Resort, a premium jungle retreat near Pench Tiger Reserve in Khawasa, Madhya Pradesh.",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Amrit Vann Resort | Luxury Jungle Resort near Pench Tiger Reserve",
     description:
-      "Premium jungle retreat near Pench Tiger Reserve. Wildlife safaris, luxury rooms & forest-to-table dining in Kohka, Madhya Pradesh.",
+      "Premium jungle retreat near Pench Tiger Reserve. Wildlife safaris, luxury rooms & forest-to-table dining in Khawasa, Madhya Pradesh.",
     images: ["/images/og-image.jpg"],
   },
   robots: {

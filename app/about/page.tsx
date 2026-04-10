@@ -8,7 +8,7 @@ import Image from "next/image"
 export const metadata: Metadata = {
   title: "About Us | Our Story of Sustainable Luxury at Pench",
   description:
-    "Learn about Amrit Vann Resort's commitment to sustainable luxury and wildlife conservation near Pench Tiger Reserve. Our story, team, and eco-tourism initiatives in Kohka, Madhya Pradesh.",
+    "Learn about Amrit Vann Resort's commitment to sustainable luxury and wildlife conservation near Pench Tiger Reserve. Our story, team, and eco-tourism initiatives near Turia, Madhya Pradesh.",
   openGraph: {
     title: "About Us | Amrit Vann Resort",
     description: "Sustainable luxury and wildlife conservation at the edge of Pench Tiger Reserve.",
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 <p className="text-stone-600 leading-relaxed">
                   To provide transformative wilderness experiences that reconnect guests with nature
                   while actively contributing to Pench Tiger Reserve&apos;s conservation and supporting
-                  the livelihoods of local tribal communities in Kohka and surrounding villages.
+                  the livelihoods of local tribal communities in Turia and surrounding villages.
                 </p>
               </CardContent>
             </Card>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               {
                 icon: Users,
                 title: "Community",
-                desc: "We employ 80% of our staff from Kohka and surrounding villages, investing in local skill development.",
+                desc: "We employ 80% of our staff from Turia and surrounding villages, investing in local skill development.",
               },
               {
                 icon: Star,

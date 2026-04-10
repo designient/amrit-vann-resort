@@ -82,7 +82,7 @@ export default function HomePage() {
                 </span>
               </h2>
               <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Situated on the fringes of Pench Tiger Reserve in Kohka, Madhya Pradesh, Amrit Vann Resort offers an
+                Situated at the edge of Pench National Park near Turia, Madhya Pradesh, Amrit Vann Resort offers an
                 immersive jungle experience without compromising on comfort. Wake up to the calls of over 250 bird
                 species, spot tigers on morning safaris, and return to the embrace of world-class hospitality.
               </p>

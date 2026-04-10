@@ -92,9 +92,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-stone-800">Address</h3>
                       <p className="text-stone-600">
-                        Village Kohka, Near Pench Tiger Reserve<br />
-                        Seoni District, Madhya Pradesh 480661<br />
-                        India
+                        Pench National Park, Turia<br />
+                        Awarghani–Turia Road, Khawasa<br />
+                        Madhya Pradesh 480881, India
                       </p>
                     </div>
                   </div>
@@ -105,9 +105,17 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-stone-800">Phone</h3>
-                      <a href="tel:+919876543210" className="text-stone-600 hover:text-emerald-600 transition-colors">
-                        +91 98765 43210
-                      </a>
+                      <div className="space-y-1">
+                        <a href="tel:+919545464788" className="block text-stone-600 hover:text-emerald-600 transition-colors">
+                          +91 95454 64788
+                        </a>
+                        <a href="tel:+918668442423" className="block text-stone-600 hover:text-emerald-600 transition-colors">
+                          +91 86684 42423
+                        </a>
+                        <a href="tel:+918055886688" className="block text-stone-600 hover:text-emerald-600 transition-colors">
+                          +91 80558 86688
+                        </a>
+                      </div>
                     </div>
                   </div>
 
@@ -145,7 +153,7 @@ export default function ContactPage() {
                       <div>
                         <p className="font-medium text-stone-800">By Air</p>
                         <p className="text-stone-600 text-sm">
-                          Nagpur Airport (Dr. Babasaheb Ambedkar International) is ~95 km away (~2 hrs drive). We arrange airport transfers.
+                          Nagpur Airport (Dr. Babasaheb Ambedkar International) is ~100 km away (~2.5 hrs drive). We arrange airport transfers.
                         </p>
                       </div>
                     </div>
@@ -173,7 +181,7 @@ export default function ContactPage() {
 
               <div className="bg-stone-100 rounded-2xl p-4">
                 <p className="text-sm text-stone-500 text-center">
-                  GPS: 21.72° N, 79.30° E
+                  GPS: 21.7353° N, 79.3499° E
                 </p>
               </div>
             </div>

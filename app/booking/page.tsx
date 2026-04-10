@@ -290,7 +290,7 @@ function BookingContent() {
                 {status === "error" && (
                   <div className="flex items-center gap-2 text-red-600 text-sm">
                     <AlertCircle className="w-4 h-4" />
-                    <span>Something went wrong. Please try again or email us at bookings@amritvannresort.com</span>
+                    <span>Something went wrong. Please try again or call us at +91 95454 64788</span>
                   </div>
                 )}
 
@@ -313,11 +313,11 @@ function BookingContent() {
           {/* Quick Contact */}
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4" data-animate>
             <Card className="p-6 border-stone-200 flex items-center gap-4">
-              <Phone className="w-8 h-8 text-emerald-600" />
+              <Phone className="w-8 h-8 text-emerald-600 flex-shrink-0" />
               <div>
                 <p className="text-sm text-stone-500">Prefer to call?</p>
-                <a href="tel:+919876543210" className="font-semibold text-stone-800 hover:text-emerald-600 transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919545464788" className="font-semibold text-stone-800 hover:text-emerald-600 transition-colors">
+                  +91 95454 64788
                 </a>
               </div>
             </Card>

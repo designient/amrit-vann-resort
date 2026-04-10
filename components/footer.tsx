@@ -62,16 +62,26 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-emerald-400 mt-1 flex-shrink-0" />
                 <p className="text-stone-300">
-                  Village Kohka, Near Pench Tiger Reserve
+                  Pench National Park, Turia
                   <br />
-                  Seoni, Madhya Pradesh 480661
+                  Awarghani–Turia Road, Khawasa
+                  <br />
+                  Madhya Pradesh 480881
                 </p>
               </div>
-              <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-emerald-400" />
-                <a href="tel:+919876543210" className="text-stone-300 hover:text-white transition-colors">
-                  +91 98765 43210
-                </a>
+              <div className="flex items-start gap-3">
+                <Phone className="w-5 h-5 text-emerald-400 mt-1 flex-shrink-0" />
+                <div className="space-y-1">
+                  <a href="tel:+919545464788" className="block text-stone-300 hover:text-white transition-colors">
+                    +91 95454 64788
+                  </a>
+                  <a href="tel:+918668442423" className="block text-stone-300 hover:text-white transition-colors">
+                    +91 86684 42423
+                  </a>
+                  <a href="tel:+918055886688" className="block text-stone-300 hover:text-white transition-colors">
+                    +91 80558 86688
+                  </a>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-emerald-400" />
@@ -85,7 +95,15 @@ export function Footer() {
 
         <div className="border-t border-stone-700/50 mt-12 pt-8 text-center">
           <p className="text-stone-400 text-sm">
-            &copy; {new Date().getFullYear()} Amrit Vann Resort. All rights reserved.
+            &copy; 2026 Amrit Vann Resort. All rights reserved. Crafted by:{" "}
+            <a
+              href="https://designient.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-400 hover:text-emerald-300 transition-colors"
+            >
+              Designient
+            </a>
           </p>
         </div>
       </div>
